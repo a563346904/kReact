@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-12-28 14:37:12
- * @LastEditTime: 2020-12-28 16:59:08
+ * @LastEditTime: 2020-12-30 16:10:27
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \learn\kReact\react-app\src\pages\HelloWord.js
@@ -9,6 +9,9 @@
 import React from 'react'
 import ReduxPage from '../components/ReduxPage';
 import ContextPage from '../components/ContextPage';
+import ReactReduxPage from '../components/ReactReduxPage';
+import ReactRouterPage from '../components/ReactRouterPage';
+import PurecomponentPage from '../components/PurecomponentPage';
 
 export default function HelloWord() {
     return (
@@ -16,6 +19,9 @@ export default function HelloWord() {
             hello
             <ReduxPage></ReduxPage>
             <ContextPage></ContextPage>
+            <ReactReduxPage></ReactReduxPage>
+            <ReactRouterPage></ReactRouterPage>
+            <PurecomponentPage></PurecomponentPage>
         </div>
     )
 }

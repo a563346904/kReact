@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-12-28 14:24:39
- * @LastEditTime: 2020-12-28 15:13:53
+ * @LastEditTime: 2020-12-30 14:23:52
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \learn\kReact\react-app\src\index.js
@@ -12,18 +12,21 @@ import './index.css';
 import App from './App';
 // import reportWebVitals from './reportWebVitals';
 import store from './store/ReduxStore.js'
+import { Provider } from 'react-redux'
 
 
 ReactDOM.render(
-  <App />,
+  <Provider store={ store }>
+    <App />
+  </Provider>,
   document.getElementById('root')
 );
-store.subscribe(() => {
-  ReactDOM.render(
-    <App />,
-    document.getElementById('root')
-  );
-})
+// store.subscribe(() => {
+//   ReactDOM.render(
+//     <App />,
+//     document.getElementById('root')
+//   );
+// })
 
 
 
