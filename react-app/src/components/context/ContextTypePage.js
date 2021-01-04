@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-12-28 16:38:44
- * @LastEditTime: 2020-12-28 18:06:13
+ * @LastEditTime: 2021-01-04 17:15:30
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \kReact\react-app\src\components\context\ContextTypePage.js
@@ -14,7 +14,6 @@ export default class ContextTypePage extends Component {
     static contextType = ConText;
     render() {
         const { themeColor } = this.context;
-        console.log(this.context)
         return (
             <div className={themeColor}>
                 ContextTypePage

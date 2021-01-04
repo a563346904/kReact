@@ -27,7 +27,6 @@ export default class PurecomponentPage extends PureComponent {
     // }
 
     render() {
-        console.log('render')
         const { count } = this.state
         return (
             <div>
