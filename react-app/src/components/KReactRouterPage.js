@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-01-08 15:33:19
- * @LastEditTime: 2021-01-08 17:13:00
+ * @LastEditTime: 2021-01-11 09:32:21
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \kReact\react-app\src\components\kReactRouterPage.js
@@ -43,8 +43,8 @@ class UserPage extends Component {
     }
 }
 
-function children() {
-    return (
-        <div>children</div>
-    )
-}
+// function children() {
+//     return (
+//         <div>children</div>
+//     )
+// }

@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-01-08 15:30:09
- * @LastEditTime: 2021-01-08 17:14:35
+ * @LastEditTime: 2021-01-11 09:34:16
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \kReact\react-app\src\kreactRouterDom\Route.js
@@ -45,9 +45,9 @@ export default class Route extends Component {
                     ? children() 
                     : null
                     
-                    return match ?
-                            React.createElement(component) :
-                            null
+                    // return match ?
+                    //         React.createElement(component) :
+                    //         null
                 }
             }
         </RouterContext.Consumer>
