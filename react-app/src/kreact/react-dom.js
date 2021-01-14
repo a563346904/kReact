@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-01-14 17:08:20
- * @LastEditTime: 2021-01-14 17:16:23
+ * @LastEditTime: 2021-01-14 17:28:41
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \kReact\react-app\src\kreact\react-dom.js
@@ -15,7 +15,7 @@ function render(vnode, container) {
     const node = createNode(vnode)
 
     // node更新到container
-    container.appendChild(node)
+    container.appendChild(node) 
 }
 
 function createNode(vnode) {
