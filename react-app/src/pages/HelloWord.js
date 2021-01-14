@@ -1,15 +1,15 @@
 /*
  * @Author: your name
  * @Date: 2020-12-28 14:37:12
- * @LastEditTime: 2021-01-08 15:38:43
+ * @LastEditTime: 2021-01-12 16:53:20
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \learn\kReact\react-app\src\pages\HelloWord.js
  */
 import React from 'react'
-import KReactRouterPage from '../components/KReactRouterPage';
+// import KReactRouterPage from '../components/KReactRouterPage';
 // import ReduxPage from '../components/ReduxPage';
-// import ContextPage from '../components/ContextPage';
+import ContextPage from '../components/ContextPage';
 // import ReactReduxPage from '../components/ReactReduxPage';
 // import ReactRouterPage from '../components/ReactRouterPage';
 // import PurecomponentPage from '../components/PurecomponentPage';
@@ -23,10 +23,10 @@ export default function HelloWord() {
     return (
         <div>
             hello
-            <KReactRouterPage></KReactRouterPage>
-            {/* <ReduxPage></ReduxPage>
+            {/* <KReactRouterPage></KReactRouterPage> */}
+            {/* <ReduxPage></ReduxPage> */}
             <ContextPage></ContextPage>
-            <ReactReduxPage></ReactReduxPage>
+            {/* <ReactReduxPage></ReactReduxPage>
             <ReactRouterPage></ReactRouterPage>
             <LifeCyclePage></LifeCyclePage>
             <PurecomponentPage></PurecomponentPage>
